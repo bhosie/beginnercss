@@ -1,56 +1,70 @@
 <html>
 	<head>
-		<link rel="stylesheet" href="widgetstyles.css">
+		<!--<link rel="stylesheet" href="widgetstyles.css"> -->
+		<link rel="stylesheet" href="bootstrap.min.css">
 		<link rel="stylesheet" href="stylesheet.css">
+		<link rel="stylesheet" href="bootstrapoverrides.css">
 		<!-- notes notes notes -->
 	</head>
 	
 	<body>
 		
-		<div class="step step1">
-			<div class= "promotext">
-		FOLLOW THESE <br /> STEPS TO ENTER</div>
-		</div>
-		
-		<div class="step step2">
-			<div class="likecontainer">
-			<div class= "promotext">				
-				Like this fan page</div>
-				<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false">
+		<div class="container">
+				
+				<div class="row">
+	  					<div class="col-md-4 step step1">
+							<div class="promotext">
+							FOLLOW THESE <br /> STEPS TO ENTER
+							</div>
+						</div>
 				</div>
-			</div>
-				<div class="box box1 boxgreen">
-					<div class="image"></div>​
+
+				<div class="row"> 
+					<div class="col-md-4 step step2">
+						<div class="likecontainer">
+							<div class= "promotext">				
+							Like this fan page</div>
+								<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false">
+								</div>
+						</div>
+							<div class="box box1 boxgreen">
+								<div class="image"></div>​
+							</div>
+					</div>
 				</div>
-		</div>
-		
-		<div class="step step3">
-			<div class="emailcontainer">
-				<div class= "promotext">
-				Enter your email</div>
-					<div class="step3text">
+
+				<div class="row">
+					<div class="col-md-4 step step3">
+						<div class="emailcontainer">
+							<div class= "promotext">
+							Enter your email</div>
+								<div class="step3text">
+									<div class= "promotext">
+								Winners will be notified by email</div>
+								</div>			
+						</div>
+						<div class="box">
+						</div>			
+						<input type="text"/>
+						<button class="btn btn-primary button" type="button">Submit</button>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-4 step step4">
 						<div class= "promotext">
-					Winners will be notified by email</div>
-					</div>			
-			</div>
-			<div class="box">
-			</div>			
-			<input type="text"/>
-			<button class="button" type="button">Submit</button>
+						SHARE ON FACEBOOK!</div>
+						<button class= "btn btn-default" type="button">Share</button>
+					</div>
+						<div id="fb-root"></div>
+						<script>(function(d, s, id) {
+			  			var js, fjs = d.getElementsByTagName(s)[0];
+			  			if (d.getElementById(id)) return;
+			  			js = d.createElement(s); js.id = id;
+			  			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+			  			fjs.parentNode.insertBefore(js, fjs);
+						}(document, 'script', 'facebook-jssdk'));</script>
+				</div>
 		</div>
-		
-		<div class="step step4">
-			<div class= "promotext">
-		SHARE ON FACEBOOK!</div>
-			<button type="button">Share</button>
-		</div>
-			<div id="fb-root"></div>
-			<script>(function(d, s, id) {
-  			var js, fjs = d.getElementsByTagName(s)[0];
-  			if (d.getElementById(id)) return;
-  			js = d.createElement(s); js.id = id;
-  			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-  			fjs.parentNode.insertBefore(js, fjs);
-			}(document, 'script', 'facebook-jssdk'));</script>
 	</body>
 </html>
