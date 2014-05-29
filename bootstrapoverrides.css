@@ -2,6 +2,125 @@
 	font-color: #303442; 
 	border-style: solid; 
 	border-width: 1px; 
-	border-color: gray;
+	border-color: #BBBDBF;
 }
 
+.promotext {
+	font-family: "proxima_nova_soft_mdregular";
+}
+
+.step1 {
+	height: 68px; 
+	font-size: 21px;
+	line-height: 24px; 
+	width: 265px; 
+	text-align: center; 
+	padding-top: 11px; 
+	margin-bottom: 4px;
+	margin-top: 15px;
+}
+
+.step2 {
+	height: 68px; 
+	font-size: 20px; 
+	width: 265px; 
+	text-align: left; 
+	padding-bottom: 9px; 
+	margin-bottom: 4px
+}
+
+.likecontainer {
+	float: left; 
+	width: 160px;
+	margin-top: 6px;
+}
+
+.box {
+	float: right; 
+	width: 40px; 
+	height: 40px; 
+	background-color: #E6E7E8;
+}
+
+.box1 {
+	margin-top: 13px;
+}
+
+.image {
+	content:url(/checkbox.png); 
+	float: right; 
+	margin-right: 5px; 
+	margin-top: 5px;
+}
+
+.boxgreen {
+	background-color: #79BE43;
+}
+
+.step3 {
+	font-size: 20px; 
+	width: 265px; 
+	text-align: left; 
+	padding-top: 13px; 
+	height: 173px; 
+	padding-left: 15px;
+}
+
+.step3text {
+	font-size: 13px; 
+	text-align: left;
+}
+
+input {
+	background-color: white; 
+	border-width: 1px; 
+	height: 35px; 
+	width: 233px; 
+	margin-top: 12px;
+	margin-bottom: 17px;
+}
+
+.emailcontainer {
+	float: left; 
+	width: 185px;
+	margin-top: -2px;
+}
+
+.step4 {
+	font-size: 21px; 
+	height: 97px; 
+	width: 265px; 
+	padding-top: 9px; 
+	margin-top: 15px;
+}
+
+.step4text {
+	text-align: center;
+	font-family: "proxima_nova_soft_mdregular";
+	margin-bottom: 5px;
+}
+
+button {
+	background-color: #A6A8AB; 
+	font-family: "proxima_nova_soft_mdregular";
+	border-width: 0px; 
+	float: right; 
+	width: 98px; 
+	height: 36px;
+	border-radius: 0px;
+	border-width: 0px;
+	}
+
+.button {
+	background-color: #EB8023;
+	border-radius: 0px;
+	border-width: 0px;
+}
+
+.button2 {
+	background-color: #A6A8AB;
+	border-radius: 0px;
+	border-width: 0px;
+}
+
+.btn-default {font-color: white;}
