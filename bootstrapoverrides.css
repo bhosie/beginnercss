@@ -102,7 +102,8 @@ input {
 
 .button {
 	background-color: #A6A8AB; 
-	font-family: "proxima_nova_soft_mdregular";
+	font-family: "proxima_nova_ltlight";
+	font-size: 18px;
 	color: #ffffff;
 	border-width: 0px; 
 	float: right; 
@@ -112,10 +113,16 @@ input {
 	border-width: 0px;
 	}
 
-.button1 {
-	background-color: #EB8023;
+.button:hover {
+	color: white;
+	background-color: #808184;
 }
 
-.button2 {
-	
+.button1:hover {
+	color: white;
+	background-color: #F06828;
+}
+
+.button1 {
+	background-color: #EB8023;
 }
