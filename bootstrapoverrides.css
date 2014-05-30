@@ -100,9 +100,10 @@ input {
 	margin-bottom: 5px;
 }
 
-button {
+.button {
 	background-color: #A6A8AB; 
 	font-family: "proxima_nova_soft_mdregular";
+	color: #ffffff;
 	border-width: 0px; 
 	float: right; 
 	width: 98px; 
@@ -111,16 +112,10 @@ button {
 	border-width: 0px;
 	}
 
-.button {
+.button1 {
 	background-color: #EB8023;
-	border-radius: 0px;
-	border-width: 0px;
 }
 
 .button2 {
-	background-color: #A6A8AB;
-	border-radius: 0px;
-	border-width: 0px;
+	
 }
-
-.btn-default {font-color: white;}
